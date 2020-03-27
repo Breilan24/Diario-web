@@ -1,0 +1,68 @@
+body
+{
+    margin: 0; 
+    background-image: url("fondo.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    z-index: 1;
+}
+#sesion,#cuenta,#central,#entrada,#lee,#mo
+{
+    z-index: 2;
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15%;
+    padding: 15px 5px 25px;
+}
+#cuenta
+{
+    width: 800px;
+    margin-top: 13%;
+    text-align: left;
+}
+#central
+{
+    width: 900px;
+    text-align: left;
+    height: 50px;
+}
+#entrada
+{
+    margin-top: 100px;
+}
+#lee
+{
+    width: min-content;
+    margin-top: 20px;
+    text-align: justify;
+}
+#mo
+{
+    text-align: left;
+    margin-top: 100px;
+}
+input.es
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+.ti
+{
+    color: teal;
+    text-decoration: underline;
+}
+#hi a:link
+{
+    text-decoration: none;
+}
+#hi a:hover
+{
+    text-decoration: underline;
+}
+#central a
+{
+    color: black;
+    text-decoration: none;
+}
